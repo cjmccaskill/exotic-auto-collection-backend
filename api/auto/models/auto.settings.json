@@ -26,9 +26,7 @@
     "image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
@@ -38,6 +36,14 @@
     },
     "price": {
       "type": "biginteger"
+    },
+    "category": {
+      "via": "autos",
+      "model": "category"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
