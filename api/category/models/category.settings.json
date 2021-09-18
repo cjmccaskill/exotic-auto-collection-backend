@@ -13,8 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "autos": {
-      "collection": "auto",
-      "via": "category"
+      "via": "category",
+      "collection": "auto"
     },
     "slug": {
       "type": "uid"

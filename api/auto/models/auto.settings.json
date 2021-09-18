@@ -24,7 +24,7 @@
       "via": "autos"
     },
     "image": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images"
